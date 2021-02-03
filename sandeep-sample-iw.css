@@ -1,0 +1,74 @@
+.parent{
+    border:2px solid #DFA612;
+    color:black;
+    display:flex;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+.origin{
+    flex-basis:100%;
+    flex-grow:1;
+    padding:10px;
+    border:2px solid black;
+
+}
+.drag{
+    /* background-color:red; */
+    font-weight: normal;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:10px;
+    width:20px;
+    height:20px;
+   
+}
+.drop{
+    /* background-color: #6DB65B; */
+    flex-basis:100%;
+    flex-grow:1;
+    padding:10px;
+    height:700px;
+    width: 1000px;
+    border:2px solid black;
+}
+#drag{
+     background-image : url(images/office-chair-silhouette.svg); 
+     background-size: contain; 
+     background-repeat: no-repeat;
+     
+     
+    }
+
+
+#drag1{
+     background-image : url(images/king-bed-1.jpg); 
+     background-size: contain; 
+     background-repeat: no-repeat; 
+     
+     
+}
+
+#drag2{
+     background-image : url(images/king-bed-2.jpg);
+      background-size: contain;
+       background-repeat: no-repeat;
+       
+       
+}
+
+#drag3{
+     background-image : url(images/king-size.svg); 
+     background-size: contain;
+      background-repeat: no-repeat;
+      
+     
+      
+}
+
+#drop{
+     background-image : url(images/floor-plan-pdf.jpg);
+      background-size: contain;
+       background-repeat: no-repeat;
+}
+

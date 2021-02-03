@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <title>sample-IW</title>
+    <link rel="stylesheet" href="sandeep-sample-iw.css"></link>
+  </head>
+ 
+  <body>
+    <div class="parent">
+      <div class="origin">
+        <div class="drag" id="drag" draggable="true"  ondragstart="onDragStart(event)" onclick="rotate(event)" ></div>
+
+        <div class="drag" id="drag1" draggable="true" ondragstart="onDragStart(event)" onclick="rotate(event)"></div>
+
+        <div class="drag" id="drag2" draggable="true" ondragstart="onDragStart(event)" onclick="rotate(event)"></div>
+
+        <div class="drag" id="drag3" draggable="true" ondragstart="onDragStart(event)" onclick="rotate(event)"></div>
+      </div>
+      <div class="drop" id="drop"ondragover="onDragOver(event)" ondrop="onDrop(event)" ></div>
+    </div>
+
+    <script src="sandeep-sample-iw.js"></script>
+  </body>
+</html>
+ 
